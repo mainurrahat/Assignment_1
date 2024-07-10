@@ -1,0 +1,191 @@
+.Awalad_vai {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* border-top:50px; */
+}
+
+.Download_Resume {
+    border-radius: 10px;
+    /* padding: 10px 5px 5px 5px; */
+    /* border: 0px 0px 10px 0px; */
+}
+
+.first_banner {
+    background-image: url(../ass_pic/Hero-bg.png);
+    background-size: cover;
+    /* Ensures the image covers the entire element */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1510px;
+    height: 500px;
+    border: 50px, 0px, 5px, 0px;
+}
+
+.comp_coder_pic {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.In_the_near_i_am_mainur_islam {
+    text-align: center;
+}
+
+.In_the_near {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.i_am_mainur_islam {
+    text-align: center;
+}
+
+.Contact_with_me {
+    position: absolute;
+    /* bottom: 0; */
+    left: 45%;
+    border-radius: 5px;
+    padding: 20px, 10px, 20px, 10px;
+
+}
+
+.Why_Web_Development {}
+
+.Why_Web {
+    text-align: center;
+}
+
+.learn_more {
+    /* padding: 1000px,500px,700px,1500px; */
+}
+
+.I_will_Do1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.I_will_help {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+
+}
+
+.I_will_Do2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.Inspiration {
+    text-align: center;
+}
+
+.youtube_video {
+    display: flex;
+    justify-content: center;
+}
+
+.Current_Target {
+    text-align: center;
+}
+
+.html_css_js {
+    display: flex;
+    justify-content: space-evenly;
+    border: 300px;
+}
+
+.html {
+    background-color: antiquewhite;
+    height: 230px;
+    width: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+
+}
+
+.css {
+    background-color: aliceblue;
+    height: 230px;
+    width: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+}
+
+.js {
+    background-color: bisque;
+    height: 230px;
+    width: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.Next_Target {
+    text-align: center;
+}
+
+.R_N_M {
+    text-align: center;
+    /* display: flex; */
+
+
+}
+
+.ReactJS {
+    /* text-align: center; */
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.NodeJs {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.MongoDB {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.need_Support {
+    text-align: center;
+    background-image: url(../ass_pic/handshake.jpg);
+    background-repeat: no-repeat;
+}
+
+.Suggest {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+   
+
+    color: white;
+
+    border-radius: 5px;
+}
