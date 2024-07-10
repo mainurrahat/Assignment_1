@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     width: 1510px;
     height: 500px;
-    border: 50px, 0px, 5px, 0px;
+    border: 50px 0px 5px 0px;
 }
 
 .comp_coder_pic {
@@ -47,7 +47,7 @@
     /* bottom: 0; */
     left: 45%;
     border-radius: 5px;
-    padding: 20px, 10px, 20px, 10px;
+    padding: 20px 10px 10px 10px;
 
 }
 
@@ -144,11 +144,13 @@
 
 .Next_Target {
     text-align: center;
+
 }
 
 .Next_Target_section {
     max-width: 700px;
     margin: 0 auto;
+
 }
 
 .R_N_M {
@@ -191,17 +193,26 @@
 
 .need_Support1 {
     width: 1140px;
-    height: 313px;
+    height: 150px;
     padding-left: 60px;
     border-radius: 10px;
+    /* clip-path: inset(0 0 5px 0); */
 
 }
 
 .need_Support {
+    padding-top: 500px;
     text-align: center;
     background-image: url(../ass_pic/handshake.jpg);
     background-repeat: no-repeat;
-    /* max-width: 100%; */
+    border-radius: 10px;
+    height: 1040px;
+    width: 1700px;
+    bottom: 5px;
+    left: 50%;
+    padding-bottom: 10%;
+    border-radius: 15px;
+    padding-bottom: -50 px;
 }
 
 .Suggest {
@@ -234,7 +245,8 @@
     padding-left: 100px;
     justify-content: space-between;
 }
-.social-icon_sob{
+
+.social-icon_sob {
     margin: 0 auto;
     gap: 10px;
 
