@@ -1,3 +1,7 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 .Awalad_vai {
     display: flex;
     /* align-items: center; */
@@ -51,6 +55,12 @@
 
 }
 
+.Contact_with_me a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
 .Why_Web_Development {
     border: 300px, 500px;
     max-width: 700px;
@@ -60,10 +70,6 @@
 
 .Why_Web {
     text-align: center;
-}
-
-.learn_more {
-    /* padding: 1000px,500px,700px,1500px; */
 }
 
 .I_will_Do1 {
@@ -104,6 +110,11 @@
     gap: 20px;
     /* border: 300px; */
 
+}
+
+.learn_more4 {
+    text-decoration: none;
+    text-decoration-color: black;
 }
 
 .html {
@@ -192,27 +203,34 @@
 }
 
 .need_Support1 {
-    width: 1140px;
-    height: 150px;
-    padding-left: 60px;
-    border-radius: 10px;
-    /* clip-path: inset(0 0 5px 0); */
-
+    width: 100%;
+    background-image: url('../ass_pic/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0 5% 0;
 }
 
 .need_Support {
-    padding-top: 500px;
     text-align: center;
-    background-image: url(../ass_pic/handshake.jpg);
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    height: 1040px;
-    width: 1700px;
-    bottom: 5px;
-    left: 50%;
-    padding-bottom: 10%;
-    border-radius: 15px;
-    padding-bottom: -50 px;
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.need_Support h4 {
+    color: white;
+    font-size: 2em;
+}
+
+.need_Support p {
+    color: white;
+    font-weight: 600;
 }
 
 .Suggest {
@@ -234,6 +252,10 @@
 
 }
 
+.social-icon_sob a {
+    text-decoration: none;
+}
+
 .submit-button {
     width: 120px;
     height: 80px;
@@ -242,12 +264,31 @@
 
 .last_part {
     display: flex;
-    padding-left: 100px;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: #8585858c;
 }
 
-.social-icon_sob {
-    margin: 0 auto;
-    gap: 10px;
+.test {
+    width: 100%;
+    border: 1px solid red;
+    background-image: url('./bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-50%);
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.test h4 {
+    color: white;
+    font-size: 2em;
+}
+
+.test p {
+    color: white;
 }
