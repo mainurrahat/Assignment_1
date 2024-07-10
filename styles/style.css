@@ -1,8 +1,9 @@
 .Awalad_vai {
     display: flex;
     /* align-items: center; */
-    justify-content: space-around;
-    /* border-top:50px; */
+    justify-content: space-between;
+    padding: 0px 40px;
+
 }
 
 .Download_Resume {
@@ -14,7 +15,6 @@
 .first_banner {
     background-image: url(../ass_pic/Hero-bg.png);
     background-size: cover;
-    /* Ensures the image covers the entire element */
     background-position: center;
     background-repeat: no-repeat;
     width: 1510px;
@@ -51,7 +51,12 @@
 
 }
 
-.Why_Web_Development {}
+.Why_Web_Development {
+    border: 300px, 500px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
 
 .Why_Web {
     text-align: center;
@@ -64,20 +69,20 @@
 .I_will_Do1 {
     display: flex;
     justify-content: space-around;
-    padding: 70px;
+    padding: 30px 70px;
 }
 
 .I_will_help {
     display: flex;
     justify-content: space-around;
-    padding: 70px;
+    padding: 30px 70px;
 
 }
 
 .I_will_Do2 {
     display: flex;
     justify-content: space-around;
-    padding: 70px;
+    padding: 30px 70px;
 }
 
 .Inspiration {
@@ -95,8 +100,10 @@
 
 .html_css_js {
     display: flex;
-    justify-content: space-evenly;
-    border: 300px;
+    justify-content: center;
+    gap: 20px;
+    /* border: 300px; */
+
 }
 
 .html {
@@ -139,6 +146,11 @@
     text-align: center;
 }
 
+.Next_Target_section {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .R_N_M {
     text-align: center;
     /* display: flex; */
@@ -177,15 +189,37 @@
     text-align: center;
     background-image: url(../ass_pic/handshake.jpg);
     background-repeat: no-repeat;
+    /* max-width: 100%; */
 }
 
 .Suggest {
     width: 150px;
     height: 50px;
     padding: 10px 20px;
-   
 
-    color: white;
 
-    border-radius: 5px;
+    /* color: white; */
+
+    border-radius: 10px;
+}
+
+.Suggest {
+    width: 25%;
+    width: 510px;
+    height: 57px;
+    border-radius: 10px;
+
+}
+
+.need_Support1 {
+    max-height: 70%;
+    max-width: 90%;
+    padding-left: 60px;
+    border-radius: 10px;
+}
+
+.submit-button {
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
 }
