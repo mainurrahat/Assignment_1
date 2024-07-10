@@ -185,6 +185,18 @@
 
 }
 
+.deco {
+    text-decoration: none;
+}
+
+.need_Support1 {
+    width: 1140px;
+    height: 313px;
+    padding-left: 60px;
+    border-radius: 10px;
+
+}
+
 .need_Support {
     text-align: center;
     background-image: url(../ass_pic/handshake.jpg);
@@ -211,15 +223,19 @@
 
 }
 
-.need_Support1 {
-    max-height: 70%;
-    max-width: 90%;
-    padding-left: 60px;
-    border-radius: 10px;
-}
-
 .submit-button {
     width: 120px;
     height: 80px;
     border-radius: 10px;
+}
+
+.last_part {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+.social-icon_sob{
+    margin: 0 auto;
+    gap: 10px;
+
 }
